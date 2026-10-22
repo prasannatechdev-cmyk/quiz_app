@@ -1,0 +1,432 @@
+/* rem --for global sizing
+    em --for local sizing */
+
+/* .styl{
+    color:red;
+    text-align:center;
+    
+} */
+/* body{
+        background-color: rgb(219, 219, 224); */
+    /* background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/af_unrec_h1._CB786855017_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+
+/* } */
+
+
+/* .sform{ */
+    /* margin-left: auto; */
+    /* border: 2px solid black;
+    padding: 15px;
+    width: 250px;
+   
+} */
+
+
+
+
+
+
+
+
+
+
+/* .signup{
+    border: 2px solid black;
+    width: 350px;
+    padding: 10px;
+    margin:auto;
+}
+
+.signup div{
+    margin-bottom: 3px;
+    padding: 10px;
+
+}
+.c6 input{
+    margin-left: 10px;
+}
+.tstyle{
+    border: 2px solid black;
+    padding: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* body{
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 350px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+p{
+    text-align: center;
+}  */
+
+
+/* ---------------------------------------------- */
+
+
+/* .body{
+    background-color: red;
+background: linear-gradient(to right, rgb(23, 92, 148),#667eea,#764ba2);
+
+background: linear-gradient(to right, rgb(5, 42, 73),#13182c,#310958);
+
+} */
+
+.style{
+    margin: 3px;
+}
+.styl{
+    text-align:center;
+    animation:style 5s infinite;
+}
+@keyframes style {
+    from{color:rgb(148, 111, 55);color:rgb(224, 177, 213);
+        /* transform: scale(1.4); */
+        
+       
+    }
+    to{ color:rgb(218, 214, 28);}  
+}
+
+.text{
+    color:rgb(216, 21, 21);
+    text-align:center;
+    
+}
+
+
+
+.con
+{
+background: rgba(147, 152, 189, 0.3);  /* opacity effect */
+    /* border:2px solid black; */
+    width:400px;
+    height:100%;
+    /* text-align: center; */
+    padding: 10px;
+    margin: auto;
+    border-radius:20px;
+}
+
+.con h1{
+    text-align: center;
+}
+
+/* label{
+    display:flex;
+    text-align:center;
+    margin: 10px;
+    
+ } */
+
+ label,input{
+    margin-left: 25px;
+}
+
+label{
+   color:rgb(15, 15, 15);
+   font-size:20px;
+ }
+
+ input{
+    margin-bottom: 30px;
+    /* height:35px;*/
+    width: 80%; 
+    padding:10px;
+    /* margin: 10px; */
+ }
+
+
+p{
+    text-align:center;
+    font-size:20px;
+}
+button{
+    height:40px;
+    width: 80%;
+    margin-left:40px;
+    background-color:blue;
+    border:none;
+    color:white;
+}
+
+
+
+
+
+
+
+
+.homebody{
+
+    background: linear-gradient(to right, rgba(66, 3, 66,0.6));
+
+}
+
+/* HEADER */
+/* .lst{
+    height:100px;
+    background: linear-gradient(to right,rgb(59, 3, 59),rgb(3, 3, 49));
+    display:flex;
+    align-items:center;      */
+         /* Vertical center */
+
+/* } */
+
+/* MENU */
+/* .lst ul{   
+    list-style: none;
+    display:flex; */
+    /* justify-content:center;   */
+        /* Horizontal center */
+    /* width:100%;   */
+                    /* Important for centering */
+    /* padding:0;
+    margin:0;
+} */
+
+/* .lst ul li{
+    font-size:20px;
+    margin:0 5px;
+    padding: 5px;
+}
+
+.lst li a{ 
+    text-decoration:none;
+    color:rgb(209, 197, 197);  
+}
+
+.lst li:hover{
+    
+    background-color: rgb(146, 61, 172);
+    
+    cursor:pointer;
+    border-radius:15px;
+}
+.lst a:hover{
+color:rgb(5, 5, 59);
+}
+
+.qzes{
+    border:2px solid black;
+    justify-content: center;
+    padding:10px;
+    display:flex;
+
+}
+
+.igtxt{
+    margin:5px 10px;
+    width:120px;
+    height:120px;
+    border:2px solid black;
+    padding:5px;
+    text-align:center;
+}
+
+@media (min-width:0px) and (max-width:575px){
+    .qzes{
+        
+        width:500px;
+
+    }
+}
+@media (min-width:576px) and (max-width:767){
+    .qzes{
+        
+        width:600px;
+
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .qzes{
+        
+        width:700px;
+
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .qzes{
+        
+        width:800px;
+
+    }
+}
+@media (min-width:1200px) and (max-width:1400px){
+    .qzes{
+        
+        width:900px;
+
+    }
+}
+
+
+
+
+
+
+@keyframes animate {
+    from{
+        background-color:rgb(136, 95, 163);
+        
+
+        }
+    to{ 
+        background-color:rgb(37, 8, 83);
+      }  
+}
+
+.visible{
+    display:none;
+} */
+
+
+
+
+
+/* ------------------------------------------ */
+
+
+/* .coursediv{ */
+    /* border:2px solid black; */
+    /* justify-content: center;
+    padding:10px;
+    display:flex;
+    
+
+}
+
+.course{
+    margin:5px 10px;
+    width:300px;
+    height:120px;
+    border:2px solid black;
+    padding:5px;
+    text-align:center;
+    box-shadow:3px 3px 5px 5px rgb(173, 139, 211);
+}
+
+.course:hover{
+    background-color: rgb(146, 61, 172);
+    cursor:pointer;
+        box-shadow:3px 3px 5px 5px rgb(65, 9, 129);
+
+    
+}
+
+
+@media (min-width:0px) and (max-width:575px){
+    .coursediv{
+        
+        width:500px;
+
+    }
+}
+@media (min-width:576px) and (max-width:767){
+    .coursediv{
+        
+        width:600px;
+
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .coursediv{
+        
+        width:700px;
+
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .coursediv{
+        
+        width:800px;
+
+    }
+}
+@media (min-width:1200px) and (max-width:1400px){
+    .coursediv{
+        
+        width:900px;
+
+    }
+}
+
+
+
+.html{
+    width:50%;
+    background:linear-gradient(to right,blue,pink);
+    padding:10px;
+   
+}
+.html li{
+    padding:10px;
+    list-style-type: none;
+}
+.html a{
+    text-decoration:none;
+     animation:htmlanimate 5s infinite;
+     font-size: 30px;
+     font-weight: bold;
+}
+
+@keyframes htmlanimate {
+    from{
+        color:rgb(155, 161, 69);
+        
+
+        }
+    to{ 
+        color:rgb(66, 5, 38);
+      }  
+} */
